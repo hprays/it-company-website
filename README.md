@@ -1,4 +1,4 @@
-# TL Solutions 기업 홈페이지 (포트폴리오용)
+# TL Solutions 기업 홈페이지 제작
 
 ## 프로젝트 개요
 
