@@ -1,0 +1,25 @@
+# 이미지 파일 무시
+back.jpeg
+hi.jpeg
+vision.jpeg
+call.jpeg
+business.jpeg
+direction.jpeg
+logo.png
+mark.jpg
+000.jpg
+
+# IDE/에디터 설정 무시
+.vscode/
+.idea/
+
+# Mac/Windows 임시파일
+.DS_Store
+Thumbs.db
+
+# 로그/임시파일
+*.log
+*.tmp
+
+# 기타 불필요한 파일
+node_modules/ 
