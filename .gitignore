@@ -1,4 +1,4 @@
-# 이미지 파일 무시
+# 이미지 파일 무시 (실제 이미지 파일이 있을 경우만)
 back.jpeg
 hi.jpeg
 vision.jpeg
@@ -21,5 +21,10 @@ Thumbs.db
 *.log
 *.tmp
 
-# 기타 불필요한 파일
-node_modules/ 
+# node_modules (향후 npm 패키지 사용 시)
+node_modules/
+
+# 환경변수 파일 (향후 추가될 경우)
+.env
+
+# 기타 불필요한 파일/폴더 

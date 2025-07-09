@@ -1,0 +1,36 @@
+/* index.html에서 분리한 전체 CSS */
+:root {
+  --main-blue: #3ad3e3;
+  --sub-blue: #3ad3e3;
+  --dark-bg: #161c23;
+  --card-bg: rgba(20, 23, 30, 0.77);
+  --accent: #f15d4c;
+  --text: #e8f5ff;
+  --shadow: 0 5px 32px 0 rgba(28, 80, 137, 0.13);
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+  background: var(--dark-bg);
+  color: var(--text);
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-size: 14px;
+}
+body {
+  min-height: 100vh;
+}
+header {
+  background: rgba(16, 22, 35, 0.98);
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  box-shadow: var(--shadow);
+  transition: background 0.3s;
+}
